@@ -14,13 +14,7 @@ func main() {
 	input = 368078
 	res := 0
 
-	sideLengths := []int{}
-
 	for i := 1; i <= input; i += 2 {
-		if i%i == 0 {
-			sideLengths = append(sideLengths, i)
-		}
-
 		if i*i > input {
 			numY := (i - 1) / 2
 			innerCorner := (i - 2) * (i - 2)
