@@ -13,3 +13,6 @@ func TestDay2(t *testing.T) {
 func TestDay3(t *testing.T) {
 	day3()
 }
+func TestDay4(t *testing.T) {
+	day4()
+}
